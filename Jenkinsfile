@@ -10,7 +10,7 @@ pipeline {
         stage('scm') {
             steps {
                 git url: 'https://github.com/sangameshwar-0109/jenkis-202.git',
-                    branch 'develop'
+                    branch: 'develop'
             }
         }
         stage('build') {
